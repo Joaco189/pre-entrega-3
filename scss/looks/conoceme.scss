@@ -1,0 +1,76 @@
+.conocemeTitle{
+    margin: 20px 0;
+
+    @include lg-bootstrap{
+        margin: 50px 0 0 0;
+        grid-area: conocemeTitle;
+    }
+
+    h2{
+        font-size: 1.7rem;
+        @include lg-bootstrap{
+            font-size: 3rem;
+        }
+        @include md-bootstrap{
+            font-size: 2.3rem;
+        }
+    }
+}
+
+.conocemeImage{
+    margin-bottom: 20px;
+    
+    @include lg-bootstrap{
+        align-items: center;
+        grid-area: conocemeImage;
+        margin-right: 5px;
+    }
+    
+    img{
+        width: 18.5rem;
+        @include lg-bootstrap{
+            width: 22rem;
+            margin-top: 50px;
+        }
+    }
+}
+
+.conocemeParagraph{
+    text-align: center;
+    padding: 2rem;
+    @include lg-bootstrap{
+        grid-area: conocemeParagraph;
+        padding: 0 0 1rem 0;
+    }
+}
+
+.conocemeTitleImage{
+    margin-bottom: 30px;
+    
+    @include lg-bootstrap{
+        margin-bottom: 50px;
+        grid-area: conocemeTitleImage;
+    }
+
+    img{
+        width: 18.5rem;
+        @include lg-bootstrap{
+            width: 25.5rem;
+        }
+    }
+}
+
+@include lg-bootstrap{
+    .conocemeSection{
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 0.7fr 1.3fr;
+        grid-template-rows: auto auto auto;
+        gap: 0px 0px;
+        align-items: center;
+        grid-template-areas:
+        "conocemeImage conocemeTitle"
+        "conocemeImage conocemeParagraph"
+        ". conocemeTitleImage";
+    }
+}

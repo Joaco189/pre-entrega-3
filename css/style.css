@@ -1,0 +1,481 @@
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Raleway:wght@300;400&display=swap");
+/* Mixins */
+/* Reset */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Baloo 2", cursive;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.img {
+  width: 100%;
+}
+
+.navbar {
+  border-bottom: 1px solid #cacaca;
+}
+
+.navbar-brand {
+  color: #1e566f;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+@media (min-width: 400px) {
+  .navbar-brand {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 2.2rem;
+  }
+}
+.navbar-brand:hover {
+  color: #2f8ab4;
+  transition: color 0.3s;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  color: #0c0b0b;
+}
+.nav-link:hover {
+  color: #ff6666;
+  transform: translateY(1px);
+  transition: 0.3s;
+}
+@media (min-width: 992px) {
+  .nav-link {
+    color: #0c0b0b;
+    padding: 0.3rem 0;
+    margin-inline: 15px;
+    border-bottom: 1px solid #2f8ab4;
+  }
+  .nav-link:hover {
+    color: #ff6666;
+    border-color: #ff6666;
+    transform: translateY(1px);
+    transition: 0.3s;
+  }
+}
+
+.logoImage {
+  width: 0.8rem;
+}
+@media (min-width: 400px) {
+  .logoImage {
+    width: 1.1rem;
+  }
+}
+@media (min-width: 992px) {
+  .logoImage {
+    width: 1.4rem;
+  }
+}
+
+.navbar-toggler {
+  color: #ff6666;
+  border-color: #ff6666;
+}
+
+@media (min-width: 992px) {
+  #navbarNav {
+    flex-grow: 0;
+  }
+}
+
+.footer {
+  background-color: #1e566f;
+  height: 35rem;
+}
+@media (min-width: 992px) {
+  .footer {
+    height: 25rem;
+  }
+}
+.footer div h5 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  .footer div h5 {
+    font-size: 1.8rem;
+  }
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 32rem;
+}
+@media (min-width: 992px) {
+  .footerContent {
+    height: 22rem;
+    flex-direction: row;
+  }
+}
+
+.footerNavigationList {
+  padding: 0;
+}
+.footerNavigationList li {
+  padding: 10px;
+}
+.footerNavigationList li a {
+  font-size: 1.1rem;
+  padding-left: 0;
+  color: #cacaca;
+}
+@media (min-width: 992px) {
+  .footerNavigationList li a {
+    font-size: 1rem;
+  }
+}
+.footerNavigationList li a:hover {
+  color: #ff6666;
+  transition: color 0.3s;
+}
+
+.footer-brand {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.footer-brand:hover {
+  color: #cacaca;
+  transition: color 0.3s;
+}
+
+.instagramIcon {
+  margin-top: 10px;
+  width: 3.2rem;
+}
+
+.footerAuthor {
+  width: 100%;
+  padding-top: 15px;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  font-weight: 100;
+}
+.footerAuthor p {
+  margin: 0;
+}
+
+.button, .buttonContacto, .buttonEscribime {
+  border: none;
+  border-radius: 15px;
+  padding: 0.2rem 1.5rem;
+  background-color: #ff6666;
+  color: #ffffff;
+}
+.button:hover, .buttonContacto:hover, .buttonEscribime:hover {
+  background-color: #ff4d4d;
+  transform: translateY(1px);
+  transition: 0.3s;
+}
+
+.indexHero img {
+  height: 93vh;
+  object-fit: cover;
+  object-position: center;
+  filter: blur(4px);
+  padding: 5px 0px;
+}
+.indexHero h1 {
+  width: 95%;
+  color: #ffffff;
+  position: absolute;
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: rgba(54, 54, 54, 0.5568627451);
+  border-radius: 30px;
+}
+@media (min-width: 992px) {
+  .indexHero h1 {
+    width: 80%;
+  }
+}
+
+.img-carousel {
+  max-height: 40rem;
+  object-fit: fill;
+}
+
+.containerModalidad {
+  height: 15rem;
+  background-color: #ff6666;
+}
+.containerModalidad h3 {
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.5568627451);
+}
+.containerModalidad p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  padding-left: 5px;
+}
+.containerModalidad div div {
+  width: 6.5rem;
+  padding-right: 5px;
+}
+
+.containerCarousel h1 {
+  margin-bottom: 5px;
+}
+
+.accordion-item {
+  width: 90vw;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (min-width: 992px) {
+  .accordion-button {
+    font-size: 1.2rem;
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: #ff6666;
+  background-color: #ffffff;
+}
+.accordion-button:focus {
+  border-color: #ff6666;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.conocemeTitle {
+  margin: 20px 0;
+}
+@media (min-width: 992px) {
+  .conocemeTitle {
+    margin: 50px 0 0 0;
+    grid-area: conocemeTitle;
+  }
+}
+.conocemeTitle h2 {
+  font-size: 1.7rem;
+}
+@media (min-width: 992px) {
+  .conocemeTitle h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .conocemeTitle h2 {
+    font-size: 2.3rem;
+  }
+}
+
+.conocemeImage {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .conocemeImage {
+    align-items: center;
+    grid-area: conocemeImage;
+    margin-right: 5px;
+  }
+}
+.conocemeImage img {
+  width: 18.5rem;
+}
+@media (min-width: 992px) {
+  .conocemeImage img {
+    width: 22rem;
+    margin-top: 50px;
+  }
+}
+
+.conocemeParagraph {
+  text-align: center;
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .conocemeParagraph {
+    grid-area: conocemeParagraph;
+    padding: 0 0 1rem 0;
+  }
+}
+
+.conocemeTitleImage {
+  margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .conocemeTitleImage {
+    margin-bottom: 50px;
+    grid-area: conocemeTitleImage;
+  }
+}
+.conocemeTitleImage img {
+  width: 18.5rem;
+}
+@media (min-width: 992px) {
+  .conocemeTitleImage img {
+    width: 25.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .conocemeSection {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    align-items: center;
+    grid-template-areas: "conocemeImage conocemeTitle" "conocemeImage conocemeParagraph" ". conocemeTitleImage";
+  }
+}
+.titlePlanes {
+  font-size: 1.5rem;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+.plan .imagesPlanes {
+  max-width: 25rem;
+}
+
+.titleComoFunciona {
+  font-size: 2rem;
+}
+
+.pasos {
+  background-color: #cacaca;
+  padding: 3.5rem 1.5rem 0.5rem 1.5rem;
+  max-width: 20rem;
+  margin: 1rem;
+}
+.pasos .numberPasos {
+  background-color: #ff6666;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  margin-top: -95px;
+  font-size: 2rem;
+  font-family: "Baloo 2", cursive;
+}
+
+@media (min-width: 768px) {
+  .buttonEscribime {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+}
+.buttonEscribime:hover {
+  color: #ffffff;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border: #ff6666 1px solid;
+  border-radius: 15px;
+  margin: 30px 0px;
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .article {
+    margin: 75px 0px;
+  }
+}
+.article .articleImage {
+  width: 100%;
+}
+
+.formContacto div h2 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+@media (min-width: 992px) {
+  .formContacto div h2 {
+    font-size: 2rem;
+  }
+}
+
+.formField {
+  font-size: 1rem;
+  height: 2rem;
+  margin: 10px;
+  border: 1px solid #ff4d4d;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+@media (min-width: 992px) {
+  .formField {
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+}
+.formField:focus-visible {
+  outline-color: #ff4d4d;
+}
+
+.formFieldText {
+  font-size: 1rem;
+  height: 7rem;
+  margin: 10px;
+  border: 1px #ff4d4d solid;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  resize: none;
+}
+@media (min-width: 992px) {
+  .formFieldText {
+    height: 8rem;
+    font-size: 1.2rem;
+  }
+}
+.formFieldText:focus-visible {
+  outline-color: #ff4d4d;
+}
+
+.buttonContacto {
+  width: 8.5rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  margin: 1rem 5px 1.5rem 5px;
+}
+@media (min-width: 992px) {
+  .buttonContacto {
+    height: 2.5rem;
+    margin: 1.5rem 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

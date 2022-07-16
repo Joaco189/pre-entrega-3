@@ -1,0 +1,29 @@
+/* Mixins */
+
+@mixin d-flex ($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+/* Reset */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $ff-baloo;
+}
+
+p{
+    font-family: $ff-raleway;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.img{
+    width: 100%;
+}

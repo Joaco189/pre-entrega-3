@@ -1,0 +1,21 @@
+/* Colors */
+
+$primary: #ff6666;
+$primaryHover: #ff4d4d;
+$secondary: #1e566f;
+$secondaryHover: #2f8ab4;
+
+
+$greyscale: (
+    clr-grey: #cacaca,
+    clr-translucentGrey: #3636368e,
+    clr-black: #0c0b0b,
+    clr-white: #ffffff,
+);
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Raleway:wght@300;400&display=swap');
+
+$ff-baloo: 'Baloo 2', cursive;
+$ff-raleway: 'Raleway', sans-serif;

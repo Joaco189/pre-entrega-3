@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto de Nueva Era Fitness">
+    <meta name="keywords" content="contacto, mensajes, ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <title>Contacto | Nueva Era Fitness</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid justify-content-between">
+                <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                        <img class="logoImage mx-1" src="../images/logo.svg" alt="Logo Nueva Era Fitness">
+                        NUEVA ERA FITNESS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link px-0" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0" href="conoceme.html">CONOCEME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0"  href="planes.html">PLANES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0" href="articulos.html">ARTÍCULOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0" aria-current="page" href="contacto.html">CONTACTO</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-md">
+            <form class="formContacto row d-flex flex-column align-items-center" action="">
+                    <div class="d-flex justify-content-center col-lg-8 my-4">
+                        <h1>Envíame tu mensaje.</h1>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center col-lg-8">
+                        <input class="formField" name="contact_name" type="text" id="contact_name" placeholder="Nombre y apellido">
+                        <input class="formField" name="contact_email" type="email" id="contact_email" placeholder="Email">
+                        <input class="formField" name="contact_phone" type="number" id="contact_phone" placeholder="Numero de telefono">
+                        <textarea class="formFieldText" name="contact_message" id="contact_message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center col-lg-8">
+                        <input class="buttonContacto" type="reset">
+                        <input class="buttonContacto" type="submit">
+                    </div>
+            </form>
+        </section>
+    </main>
+    <footer  class="footer">
+        <section class="footerContent">
+            <div>
+                <h5>Navegación</h5>
+                <ul class="footerNavigationList">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="conoceme.html">CONOCEME</a></li>
+                    <li><a href="planes.html">PLANES</a></li> 
+                    <li><a href="articulos.html">ARTÍCULOS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div>
+                <a class="footer-brand d-flex align-items-center" href="#">
+                    <img class="logoImage mx-1" src="../images/logo.svg" alt="Logo Nueva Era Fitness">
+                    NUEVA ERA FITNESS
+                </a>
+            </div>
+            <div>
+                <h5>Seguime</h5>
+                <a href="https://www.instagram.com/nuevaera.fitness/" target="_blank"><img class="instagramIcon" src="../images/instagram.svg" alt="Instagram Nueva Era Fitness"></a>
+            </div>
+        </section>
+        <section class="footerAuthor">
+            <p>Created By Joaquín Mangold</p>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

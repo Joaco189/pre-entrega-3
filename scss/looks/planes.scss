@@ -1,0 +1,47 @@
+.titlePlanes{
+    font-size: 1.5rem;
+}
+
+.plan{
+    @include d-flex(space-between, center);
+    flex-direction: column;
+    margin: 1.5rem 0;
+
+    .imagesPlanes{
+        max-width: 25rem;
+    }
+}
+
+.titleComoFunciona{
+    font-size: 2rem;
+}
+
+.pasos{
+    background-color: map-get($greyscale, clr-grey);
+    padding: 3.5rem 1.5rem 0.5rem 1.5rem;
+    max-width: 20rem;
+    margin: 1rem;
+
+    .numberPasos{
+        background-color: $primary;
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        margin-top: -95px;
+        font-size: 2rem;
+        font-family: $ff-baloo;
+    }
+}
+
+.buttonEscribime{
+    @extend .button;
+    @include md-bootstrap{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    &:hover{
+        color: map-get($greyscale, clr-white);
+    }
+}

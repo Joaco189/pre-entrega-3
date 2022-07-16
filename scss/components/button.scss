@@ -1,0 +1,13 @@
+.button{
+    border: none;
+    border-radius: 15px;
+    padding: 0.2rem 1.5rem;
+    background-color: $primary;
+    color: map-get($greyscale, clr-white);
+
+    &:hover{
+        background-color: $primaryHover;
+        transform: translateY(1px);
+        transition: .3s;
+    }
+}

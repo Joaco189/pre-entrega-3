@@ -1,0 +1,17 @@
+@mixin modernPhone {
+    @media (min-width:400px){
+        @content;
+    }
+}
+
+@mixin md-bootstrap {
+    @media (min-width:768px){
+        @content;
+    }
+}
+
+@mixin lg-bootstrap {
+    @media (min-width:992px){
+        @content;
+    }
+}

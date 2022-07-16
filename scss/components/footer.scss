@@ -1,0 +1,79 @@
+.footer{
+    background-color: $secondary;
+    height: 35rem;
+    @include lg-bootstrap{
+        height: 25rem;
+    }
+
+    div h5{
+        color: map-get($greyscale, clr-white);
+        font-size: 1.5rem;
+        @include lg-bootstrap{
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.footerContent{
+    @include d-flex (space-around, center);
+    flex-direction: column;
+    text-align: center;
+    height: 32rem;
+    @include lg-bootstrap{
+        height: 22rem;
+        flex-direction: row;
+    }
+}
+
+.footerNavigationList{
+    padding:0;
+
+    li{
+        padding: 10px;
+
+        a{
+            font-size: 1.1rem;
+            padding-left: 0;
+            color: map-get($greyscale, clr-grey);
+            @include lg-bootstrap{
+                font-size: 1rem;
+            }
+
+            &:hover{
+                color: $primary;
+                transition: color 0.3s;
+            }
+        }
+
+    }
+}
+
+.footer-brand{
+    color: map-get($greyscale, clr-white);
+    font-size: 1.6rem;
+    font-family: $ff-raleway;
+    font-weight: 600;
+
+    &:hover{
+        color: map-get($greyscale, clr-grey);
+        transition: color .3s;
+    }
+}
+
+.instagramIcon{
+    margin-top: 10px;
+    width: 3.2rem;
+}
+
+.footerAuthor{
+    width: 100%;
+    padding-top: 15px;
+    color: map-get($greyscale, clr-white);
+    border-top: 1px solid map-get($greyscale, clr-white);
+    text-align: center;
+    font-weight: 100;
+
+    p{
+        margin: 0;
+    }
+}

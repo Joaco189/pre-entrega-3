@@ -1,0 +1,75 @@
+.navbar{
+    border-bottom: 1px solid map-get($greyscale, clr-grey);
+}
+
+.navbar-brand{
+    color: $secondary;
+    font-size: 1.2rem;
+    font-family: $ff-raleway;
+    font-weight: 600;
+
+    @include modernPhone{
+        font-size: 1.6rem;
+    }
+
+    @include lg-bootstrap{
+        font-size: 2.2rem;
+    }
+
+    &:hover{
+        color: $secondaryHover;
+        transition: color .3s;
+    }
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-link{
+    color: map-get($greyscale, clr-black);
+
+    &:hover{
+        color: $primary;
+        transform: translateY(1px);
+        transition: .3s;
+    }
+
+    @include lg-bootstrap{
+        color: map-get($greyscale, clr-black);
+        padding: 0.3rem 0;
+        margin-inline: 15px;
+        border-bottom: 1px solid $secondaryHover;
+
+        &:hover{
+            color: $primary;
+            border-color: $primary;
+            transform: translateY(1px);  
+            transition: .3s;
+        }
+    }
+    
+}
+
+.logoImage{
+    width: 0.80rem;
+
+    @include modernPhone{
+        width: 1.1rem;
+    }
+
+    @include lg-bootstrap{
+        width: 1.4rem;
+    }
+}
+
+.navbar-toggler{
+    color: $primary;
+    border-color: $primary;
+}
+
+#navbarNav{
+    @include lg-bootstrap{
+        flex-grow: 0;
+    }
+}
