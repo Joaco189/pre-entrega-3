@@ -68,7 +68,7 @@ li {
     border-bottom: 1px solid #2f8ab4;
   }
   .nav-link:hover {
-    color: #ff6666;
+    color: #0c0b0b;
     border-color: #ff6666;
     transform: translateY(1px);
     transition: 0.3s;

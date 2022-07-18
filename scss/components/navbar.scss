@@ -42,7 +42,7 @@
         border-bottom: 1px solid $secondaryHover;
 
         &:hover{
-            color: $primary;
+            color: map-get($greyscale, clr-black);
             border-color: $primary;
             transform: translateY(1px);  
             transition: .3s;
