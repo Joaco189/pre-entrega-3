@@ -196,6 +196,18 @@ li {
   transition: 0.3s;
 }
 
+.asideWhatsapp {
+  width: 3rem;
+  display: inline-block;
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+}
+.asideWhatsapp:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
 .indexHero img {
   height: 93vh;
   object-fit: cover;
