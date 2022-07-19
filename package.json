@@ -1,7 +1,7 @@
 {
   "name": "nuevaerafitness",
   "version": "1.0.0",
-  "description": "",
+  "description": "pagina dedicada a la salud y el fitness",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
