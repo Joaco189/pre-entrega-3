@@ -219,7 +219,8 @@ li {
   width: 95%;
   color: #ffffff;
   position: absolute;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  padding: 0.8rem;
   font-weight: 500;
   text-align: center;
   background-color: rgba(54, 54, 54, 0.5568627451);
@@ -228,6 +229,7 @@ li {
 @media (min-width: 992px) {
   .indexHero h1 {
     width: 80%;
+    font-size: 3.5rem;
   }
 }
 
