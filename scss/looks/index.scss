@@ -1,5 +1,5 @@
 .indexHero{
-    img{
+    .heroImg{
         height: 93vh;
         object-fit: cover;
         object-position: center;
@@ -20,6 +20,30 @@
         @include lg-bootstrap{
             width: 80%;
             font-size: 3.5rem;
+        }
+    }
+
+    .arrow{
+        bottom: 0;
+        width: 2.5rem;
+        animation-name: slide;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        @keyframes slide {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(8px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        @include lg-bootstrap{
+            width: 3rem;
         }
     }
 }
